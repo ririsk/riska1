@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-content{
+    background: #2e1700;
+}
+/* navbar */
+.navbar{
+    background-color: #573818;
+    padding: 50px;
+    font-weight: bold;
+}
+/* navbar end*/
