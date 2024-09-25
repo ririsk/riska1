@@ -28,6 +28,13 @@ cd riska1
 ```
 code .
 ```
+
+### Jangan lupa tambahkan logout
+```
+<form action="{{ route('logout') }}" method="POST" style="display:inline;">
+                            @csrf
+                            <button type="submit" class="btn btn-danger">Logout</button>
+```
 ### Langkah 3: Instal Dependensi Backend
 ```
 composer install
