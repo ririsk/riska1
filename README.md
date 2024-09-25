@@ -2,82 +2,74 @@
 ![WhatsApp Image 2024-09-25 at 18 15 20](https://github.com/user-attachments/assets/b99124dc-1b4f-4c76-a626-e81110441378)
 
 # uml
-![uml](https://github.com/user-attachments/assets/7e2fd388-e90d-443c-96d8-9c7ae6e9d09e)
-
-# ini untuk gambar dokumen
-![kop](https://github.com/user-attachments/assets/957190c1-9542-427f-9255-a4d772b7ba14)
-
+![Screenshot 2024-09-25 181537](https://github.com/user-attachments/assets/4a13d639-5aaa-4eca-b6c5-ab81395bb4cf)
 # 1. Prasyarat 
 ### Pastikan perangkat Anda telah memenuhi prasyarat berikut sebelum menginstal Repository ini:
 
 - PHP: Versi 8.1 atau lebih baru.
 - Composer: Dependency Manager untuk PHP.
 - MySQL/SQLite: Untuk database.
-- Node.js & NPM: Untuk pengelolaan dependensi front-end.
 
 # 2. Langkah Instalasi  
 
 ### Langkah 1: Clone Repository 
 
-git clone https://github.com/putravan123/laravel-web-desa.git
+```
+git clone https://github.com/ririsk/riska1.git
+ ```
 
 ### Langkah 2: Pindah ke Direktori Proyek 
 
-
-cd laravel-web-desa
-
+```
+cd riska1
+```
 - Setelah Itu Masuk Ke dalam Visual Studio Code
 
-
+```
 code .
-
+```
 ### Langkah 3: Instal Dependensi Backend
-
+```
 composer install
-
+```
 ### Langkah 4: Copy atau Salin File Konfigurasi (.env)
 
 ##### Salin file .env.example menjadi .env untuk mengatur variabel lingkungan atau Mengunkan Code berikut:
 
-
+```
 cp .env.example .env
 
-
+```
 ### Langkah 5: Atur Konfigurasi .env
 
-
- DB_CONNECTION=mysql
- DB_HOST=127.0.0.1
- DB_PORT=3306
- DB_DATABASE=webdesa
- DB_USERNAME=root
- DB_PASSWORD=
-
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_riska
+DB_USERNAME=root
+DB_PASSWORD=
+DB_COLLATION=utf8mb4_unicode_ci
+```
 
 ### Langkah 6: Migrasi Database
 
 - Buat sebuah Databases Di xampp Terlebih Dahulu
 
-
+```
 php artisan migrate
+```
 
+### Langkah 7: Generate Application Key
 
-### Langkah 8: Generate Application Key
+- Langkah ini sangat penting untuk setiap aplikasi Laravel, karena tanpa kunci ini, beberapa fitur tidak akan berjalan sebagaimana mestinya jadi harus di jalankan ya perintanya kalo mau menggunakan Source Code ini ya semoga berhasil  :
 
-- Langkah ini sangat penting untuk setiap aplikasi Laravel, karena tanpa kunci ini, beberapa fitur tidak akan berjalan sebagaimana mestinya jadi harus di jalankan ya perintanya kalo mau menggunakan Source Code ini ya semoga berhasil :blush: :
-
-
+```
 php artisan key:generate
-
+```
 
 ### Langkah 9: Jalankan Server Pengembang
 
-
-php artisan serve
 ```
-
-
-<p align="center">
-⚠️ <strong>Peringatan:</strong> Pastikan untuk menjalankan semua sesuai dengan urutan agar berjalan lancar.⚠️
-</p>
-<h1 align="center">Semoga Beruntung :blush:</h1>
+php artisan serve
+```
