@@ -1,5 +1,5 @@
 # ERD
-![Untitled (2)](https://github.com/user-attachments/assets/1236117f-3543-40ad-89f7-bd1faac3cb99)
+![WhatsApp Image 2024-09-25 at 18 15 20](https://github.com/user-attachments/assets/b99124dc-1b4f-4c76-a626-e81110441378)
 
 # uml
 ![uml](https://github.com/user-attachments/assets/7e2fd388-e90d-443c-96d8-9c7ae6e9d09e)
